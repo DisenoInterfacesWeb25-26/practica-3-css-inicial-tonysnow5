@@ -1,24 +1,80 @@
+/*ESTILO GENERAL*/
 * {
     margin: 0;
     padding: 0;    
     color:#22744C; 
     font-family: Lilita One;
+    box-sizing: border-box;
 }
 
 h1 { font-size: 2.5em; }
 h2 { font-size: 2em; }
 h3 { font-size: 1.5em; }
+h4 { font-size: 1em;}
 p  { font-size: 1em; }
 
-.cabecera-superior{    
-    padding: 10px;
-    background-color: #ffff0cdc; 
+/*HEADER Y NAV*/
+
+.cabecera-superior {            
+  display: flex;                
+  justify-content: space-between; 
+  align-items: center;         
+  padding: 10px 20px;
+  background-color: #ffff0cdc;
 }
 
-.banderas{
-    
+.info {
+  display: flex;
+  gap: 2em;
 }
 
+.info p {
+  text-align: center;
+  font-size: 0.9em;
+}
+
+.banderas img {
+  margin-left: 0.5em;
+}
+
+/* CABECERA INFERIOR */
+.cabecera-inferior {  
+  padding: 20px; 
+  background-color: #b1dac6; 
+}
+
+.cabecera-inferior nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;  
+  position: relative;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  gap: 1.5em;
+  position: absolute; 
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.menu a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #ffffff;
+  padding: 0.8em 1.2em;
+  background-color: #22744C;
+  border-radius: 40%;
+  font-size: 2em;
+  transition: 0.3s ease;
+}
+
+.menu a:hover {
+  background-color: #1a5c3c;  
+}
 
 
 
