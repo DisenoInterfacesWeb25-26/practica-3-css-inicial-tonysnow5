@@ -90,12 +90,22 @@ p  { font-size: 1em; }
 }
 
 
+.frasediw img{
+  position:absolute;
+  top:100px;
+  width: 1325px; 
+  left:0px;
+  margin-bottom: 20px;
+  height: 330px;
+}
+
+
 /*MENU 2 ASIDE*/
 .menu2 aside{    
   float: right;
   background-color: #c3ecd9;
   padding: 30px;
-  padding-bottom: 150px;    
+  padding-bottom: 460px;    
 }
 
 .menu2 li{
@@ -127,9 +137,8 @@ p  { font-size: 1em; }
 section{
   float: left;
   width: 70%;
-  margin: 40px 40px 40px 40px; 
-  padding: auto; 
-  margin-top: 40px;
+  margin: 350px 40px 40px 40px;   
+  padding: auto;   
   line-height: 30px;
 }
 
@@ -145,6 +154,7 @@ section article h2{
 /*PIE DE PÁGINA*/
 footer{
   clear:both;
+  position:relative;
   width: 100%;
   text-align: center;
   border-top:1px solid #22744C;
@@ -153,4 +163,49 @@ footer{
 footer h3, h4{
   font-size: 35px;
   margin:20px;
+}
+
+.pie-redes img {
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+  border-radius: 50%;  
+  padding: 10px; 
+}
+
+#whatsapp:hover {
+  background-color: #a1ffb1;
+  transform: scale(1.1);
+}
+
+#facee:hover {
+  background-color: #a1b7ff;
+  transform: scale(1.1);
+}
+
+#insta:hover {
+  background-color: #fca1ff;
+  transform: scale(1.1);
+}
+
+#x:hover {
+  background-color: #919191;
+  transform: scale(1.1);
+}
+
+.iconowhatsapp img{
+  width: 130px;
+  height: 130px;
+}
+
+.iconowhatsapp {
+  position: fixed;
+  bottom: 35px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.iconowhatsapp img:hover{
+  border-radius: 50%;
+  background-color: #a1ffb1;
 }
